@@ -17,7 +17,7 @@ const elements = {
   loadMore: document.querySelector(".js-load-more"),
   list: document.querySelector(".js-movie-list"),
 };
-let page = 498;
+let page = 1;
 
 elements.loadMore.addEventListener("click", handlerLoadMore);
 serviceMovie(page)
@@ -76,5 +76,3 @@ function createMarkup(arr) {
     )
     .join("");
 }
-
-// ------------
